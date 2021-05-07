@@ -9,8 +9,8 @@ html, body {
 
 body {
     color: white;
-    background: rgb(54,77,204);
-    background: linear-gradient(176deg, rgba(54,77,204,1) 0%, rgba(28,44,130,1) 100%);
+    background: rgb(204, 54, 204);
+    background: linear-gradient(176deg, rgb(216, 29, 207) 0%, rgb(194, 30, 125) 100%);
     font-family: 'Raleway', sans-serif;
 }
 
@@ -21,7 +21,7 @@ body {
 
 .avatar {
     width: 100px;
-    border-radius: 50px;
+    border-radius: 100%;
     border: 3px solid white;
     box-shadow: 0 0 20px white;
 }
@@ -43,7 +43,7 @@ h2 {
 
 .social {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     list-style: none;
     margin: 20px 0;
 }
